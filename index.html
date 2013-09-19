@@ -67,5 +67,39 @@ $ git checkout gh-pages
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
+    
+    <!--TagKnightManageTag-->
+<script type="text/javascript">
+    (function() {
+        window.tkTagVersion='1.0.1';
+        window.mtuId='NJB2_SVCBGho';
+        var w=window,
+             d=w.document,
+             h='//cdn-stage.tagknight.fringe81.com/c/j/',
+             s=d.createElement('script'),
+             oie=function(){ 
+               if (w.navigator.userAgent.toLowerCase().indexOf("msie") > -1) { 
+                 if (d.documentMode) { 
+                   return d.documentMode<9?true:false; 
+                 } else { 
+                   return true; 
+                 } 
+               } 
+               return false; 
+             }(); 
+        s.type='text/javascript';
+        s.src= w.location.protocol+h+w.mtuId;
+        if(oie){
+           document.write("<script type=\"text/javascript\" src="+s.src+"><\/script>");
+        }else{
+           d.body.appendChild(s);
+        }
+    }());
+</script>
+<noscript>
+    <iframe src="//cdn-stage.tagknight.fringe81.com/c/n/id=NJB2_SVCBGho"></iframe>
+</noscript>
+<!--TagKnightManageTagEnd-->
+    
   </body>
 </html>
